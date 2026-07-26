@@ -1,28 +1,51 @@
 import React from "react";
-import ProjectCard from "../components/ProjectCard";
 
-export default function Projects() {
-  const projects = [
-    {
-      title: "Automation Tool",
-      description: "CLI tool that automates data workflows.",
-      tech: ["Python", "Docker"],
-      link: "https://github.com/riasatchowdhury/automation-tool"
-    },
-    {
-      title: "Portfolio Website",
-      description: "Personal portfolio built with React and Tailwind CSS.",
-      tech: ["React", "Tailwind", "Vercel"],
-      link: "https://riasat.dev"
-    }
-  ];
+export default function ProjectCard({
+  title,
+  description,
+  tech = [],
+  liveUrl,
+  repoUrl,
+  link,
+}) {
+  const projectLink = liveUrl || link;
 
   return (
-    <section className="projects">
-      <h2>Projects</h2>
-      {projects.map((p, i) => (
-        <ProjectCard key={i} {...p} />
-      ))}
-    </section>
+    <article className="project-card">
+      <div className="project-card__content">
+        <h3>{title}</h3>
+        <p>{description}</p>
+        <div className="project-tags">
+          {tech.map((item) => (
+            <span key={item} className="project-tag">
+              {item}
+            </span>
+          ))}
+        </div>
+      </div>
+
+      <div className="project-links">
+        {repoUrl ? (
+          <a
+            href={repoUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link project-link--secondary"
+          >
+            Repository
+          </a>
+        ) : null}
+        {projectLink ? (
+          <a
+            href={projectLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="project-link project-link--primary"
+          >
+            Live Demo
+          </a>
+        ) : null}
+      </div>
+    </article>
   );
 }
