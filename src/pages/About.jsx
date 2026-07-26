@@ -5,8 +5,12 @@ export default function About() {
     <section>
       <h2>About Me</h2>
       <p>
-        Hi, I’m Riasat Chowdhury — a Computer Science student passionate about
-        full‑stack development, automation, and AI‑driven applications.
+        Computer Science student with a 3.76 GPA and hands-on experience in
+        full-stack development, automation, and cloud technologies. At Qualtrics,
+        I replaced manual workflows with Python-based automation that improved
+        accuracy, speed, and reliability across large-scale data operations.
+        Passionate about building practical, user-focused software using modern
+        web frameworks and AI-driven tools.
       </p>
     </section>
   );
