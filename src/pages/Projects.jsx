@@ -14,11 +14,12 @@ export default function Projects() {
           CI/CD Viz
         </a>
       </h3>
-      <p>React, Spring Boot, Supabase, GitHub Actions | Sep 2025 – Nov 2025</p>
-      <ul>
-        <li>Built a deployment monitoring dashboard with real-time alerts for failing updates.</li>
-        <li>Integrated GitHub Actions with REST API, reducing delivery issue resolution time by 60%.</li>
-      </ul>
+      <p>
+        A React + Spring Boot dashboard that monitors CI/CD pipeline health and
+        sends real-time alerts for failing deployments. By integrating GitHub
+        Actions with a REST API, it helped teams detect and resolve delivery
+        issues 60% faster.
+      </p>
 
       <h3>
         <a
@@ -29,11 +30,12 @@ export default function Projects() {
           Rate My Major
         </a>
       </h3>
-      <p>Python, React, PostgreSQL, OpenAI | Nov 2025 – Dec 2025</p>
-      <ul>
-        <li>Developed AI-powered platform analyzing 12+ majors for salary insights and industry trends.</li>
-        <li>Designed Python backend with relational database storing 15+ attributes per major.</li>
-      </ul>
+      <p>
+        An AI-powered platform built with Python, React, and PostgreSQL that
+        analyzes academic majors to provide salary insights and industry trends.
+        The backend stores 15+ attributes per major, enabling fast and structured
+        data retrieval.
+      </p>
 
       <h3>
         <a
@@ -44,11 +46,12 @@ export default function Projects() {
           AI Maze Simulation
         </a>
       </h3>
-      <p>JavaScript, React, OpenAI | Mar 2025 – May 2025</p>
-      <ul>
-        <li>Created interactive maze game with AI-driven hints based on player movement.</li>
-        <li>Built visualization dashboard predicting player success patterns with 85% accuracy.</li>
-      </ul>
+      <p>
+        An interactive maze game created with JavaScript and React that uses AI
+        to deliver dynamic, context-aware hints based on player movement. A
+        visualization dashboard predicts player success patterns with 85%
+        accuracy.
+      </p>
     </section>
   );
 }

@@ -2,35 +2,27 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <section className="contact">
+    <section>
       <h2>Contact Me</h2>
-
-      {/* Email link */}
+      <p>Email: chowdhuryriasat078@gmail.com</p>
+      <p>Phone: 516‑528‑3458</p>
       <p>
-        Email: 
-        <a href="mailto:chowdhuryriasat078@gmail.com">
-            chowdhuryriasat078@gmail.com
-        </a>
-      </p>
-
-      {/* Phone link */}
-      <p>
-        Phone: 
-        <a href="tel:5165283458">516‑528‑3458</a>
-      </p>
-
-      {/* LinkedIn */}
-      <p>
-        LinkedIn: 
-        <a href="https://www.linkedin.com/in/riasat-chowdhury-0a1232336/">
+        LinkedIn:{" "}
+        <a
+          href="https://linkedin.com/in/riasat-chowdhury-0a1232336/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           linkedin.com/in/riasat-chowdhury-0a1232336/
         </a>
       </p>
-
-      {/* GitHub */}
       <p>
-        GitHub: 
-        <a href="https://github.com/rchowd9">
+        GitHub:{" "}
+        <a
+          href="https://github.com/rchowd9"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           github.com/rchowd9
         </a>
       </p>

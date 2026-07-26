@@ -1,3 +1,4 @@
+// src/App.jsx
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
@@ -13,17 +14,21 @@ import Contact from "./pages/Contact";
 function App() {
   return (
     <BrowserRouter>
-      <Header />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/skills" element={<Skills />} />
-        <Route path="/experience" element={<Experience />} />
-        <Route path="/education" element={<Education />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer />
+      <div className="app-container">
+        <Header />
+        <main className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/skills" element={<Skills />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </main>
+        <Footer />
+      </div>
     </BrowserRouter>
   );
 }
