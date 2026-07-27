@@ -21,7 +21,16 @@ import {
   SiGooglecloud,
   SiGit,
   SiDocker,
+  SiEclipseide,
+  SiIntellijidea,
+  SiPycharm,
+  SiXampp,
+  SiRailway,
+  SiVercel,
 } from "react-icons/si";
+
+// VS Code Icons (dedicated VS Code icon set)
+import { VscVscode } from "react-icons/vsc";
 
 // Font Awesome Icons
 import {
@@ -32,6 +41,8 @@ import {
   FaTools,
   FaAws,
   FaJava,
+  FaCloud,
+  FaLaptopCode,
 } from "react-icons/fa";
 
 const skillCategories = [
@@ -78,6 +89,25 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: <SiGit color="#f05032" /> },
       { name: "Docker", icon: <SiDocker color="#2496ed" /> },
+    ],
+  },
+  {
+    category: "IDEs & Editors",
+    icon: <FaLaptopCode />,
+    skills: [
+      { name: "VS Code", icon: <VscVscode color="#007acc" /> },
+      { name: "IntelliJ IDEA", icon: <SiIntellijidea color="#fe315d" /> },
+      { name: "PyCharm", icon: <SiPycharm color="#21d789" /> },
+      { name: "Eclipse", icon: <SiEclipseide color="#2c2255" /> },
+    ],
+  },
+  {
+    category: "Servers & Deployment",
+    icon: <FaCloud />,
+    skills: [
+      { name: "XAMPP", icon: <SiXampp color="#fb7a24" /> },
+      { name: "Railway", icon: <SiRailway color="#0b0d0e" /> },
+      { name: "Vercel", icon: <SiVercel color="#000000" /> },
     ],
   },
 ];
@@ -139,3 +169,4 @@ export default function Skills() {
     </section>
   );
 }
+ 
