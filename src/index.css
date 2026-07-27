@@ -423,3 +423,156 @@ button:active {
   font-size: 1.2rem;
   line-height: 1;
 }
+
+.education-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.edu-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 1px solid #334155;
+  padding-bottom: 1.25rem;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.edu-title-group {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.edu-icon {
+  font-size: 2rem;
+  color: #38bdf8;
+  display: flex;
+}
+
+.edu-header h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.25rem 0;
+  color: #f8fafc;
+}
+
+.degree {
+  color: #cbd5e1;
+  font-weight: 500;
+  margin: 0;
+}
+
+.edu-date {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  color: #38bdf8;
+  font-size: 0.85rem;
+  font-weight: 600;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+/* GPA & Dean's List Layout */
+.edu-stats {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background-color: #0f172a;
+  padding: 1rem 1.25rem;
+  border-radius: 6px;
+  border: 1px solid #334155;
+  flex-wrap: wrap;
+}
+
+.stat-badge.gpa {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #94a3b8;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+}
+
+.stat-value {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #10b981; /* Emerald green highlight */
+}
+
+.deans-list-container {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.deans-list-title {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #f8fafc;
+}
+
+.honor-tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.honor-tag {
+  background-color: #334155;
+  color: #f59e0b;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+}
+
+/* Coursework Badges */
+.coursework-section h4 {
+  font-size: 1rem;
+  color: #f8fafc;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.course-icon {
+  color: #38bdf8;
+}
+
+.course-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.course-tag {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  font-size: 0.85rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  transition: border-color 0.2s ease;
+}
+
+.course-tag:hover {
+  border-color: #38bdf8;
+  color: #ffffff;
+}
+
