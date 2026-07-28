@@ -2,6 +2,8 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload, FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
+  const resumeUrl = "/Riasat_Chowdhury_Resume.pdf";
+
   return (
     <section className="hero-container">
       <div className="hero-content">
@@ -22,7 +24,7 @@ export default function Home() {
           <a href="/projects" className="btn btn-primary">
             View Projects <FaArrowRight />
           </a>
-          <a href="/resume.pdf" target="_blank" rel="noreferrer" className="btn btn-secondary">
+          <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
             <FaFileDownload /> Resume
           </a>
         </div>

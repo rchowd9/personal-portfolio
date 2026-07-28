@@ -815,3 +815,104 @@ button:active {
   font-size: 1.2rem;
   line-height: 1;
 }
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+  gap: 2.5rem;
+  align-items: start;
+  margin-top: 2rem;
+}
+
+@media (max-width: 850px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.about-image-container {
+  width: 100%;
+}
+
+.about-image {
+  width: 100%;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 12px;
+  border: 2px solid #334155;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3);
+}
+
+.about-bio {
+  color: #cbd5e1;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+}
+
+/* Snapshot Badges */
+.about-snapshots {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0;
+  flex-wrap: wrap;
+}
+
+.snapshot-card {
+  background-color: #1e293b;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 0.85rem 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  flex: 1;
+  min-width: 200px;
+}
+
+.snap-icon {
+  font-size: 1.5rem;
+  color: #38bdf8;
+}
+
+.snapshot-card div {
+  display: flex;
+  flex-direction: column;
+}
+
+.snapshot-card strong {
+  color: #f8fafc;
+  font-size: 0.95rem;
+}
+
+.snapshot-card span {
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+/* Hobbies Section */
+.hobbies-container h4 {
+  color: #f8fafc;
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+.hobbies-grid {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.hobby-chip {
+  background-color: #0f172a;
+  border: 1px solid #334155;
+  color: #cbd5e1;
+  font-size: 0.9rem;
+  padding: 0.4rem 0.9rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+}
