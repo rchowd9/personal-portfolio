@@ -2,7 +2,7 @@ import React from "react";
 import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload, FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
-  const resumeUrl = "/Riasat_Chowdhury_Resume.pdf";
+  const resumeUrl = `${import.meta.env.BASE_URL}Riasat_Chowdhury_Resume.pdf`;
 
   return (
     <section className="hero-container">
