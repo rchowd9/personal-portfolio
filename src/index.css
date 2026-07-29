@@ -24,8 +24,8 @@ html, body, #root {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-  background-color: #0f172a; /* Slate dark background */
-  color: #ffffff;            /* Global light text color */
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
 }
 
 .main-content {
@@ -40,13 +40,13 @@ html, body, #root {
    Global Link Styles
    ========================================================================== */
 a {
-  color: #38bdf8; /* Soft blue accent */
+  color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 }
 
 a:hover {
-  color: #7dd3fc;
+  color: var(--link-hover-color);
   text-decoration: underline;
 }
 
@@ -54,14 +54,14 @@ a:hover {
    Typography & Headings
    ========================================================================== */
 h1, h2, h3, h4, h5, h6 {
-  color: #f8fafc;
+  color: var(--text-primary);
   margin-bottom: 0.75rem;
   line-height: 1.25;
 }
 
 p {
   line-height: 1.6;
-  color: #cbd5e1;
+  color: var(--text-secondary);
   margin-bottom: 1rem;
 }
 
@@ -118,8 +118,8 @@ button:active {
 }
 
 .project-card {
-  background: linear-gradient(135deg, rgba(30, 41, 59, 0.95), rgba(15, 23, 42, 0.95));
-  border: 1px solid #334155;
+  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-tertiary));
+  border: 1px solid var(--border-color);
   border-radius: 16px;
   padding: 1.5rem;
   display: flex;
@@ -203,8 +203,8 @@ button:active {
   justify-content: space-between;
   align-items: center;
   padding: 1.25rem 2rem;
-  background-color: #1e293b; /* Slightly lighter dark tone for top header */
-  border-bottom: 1px solid #334155;
+  background-color: var(--bg-secondary);
+  border-bottom: 1px solid var(--border-color);
   position: relative;
 }
 
@@ -218,7 +218,7 @@ button:active {
 .nav-brand a {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #ffffff;
+  color: var(--text-primary);
   text-decoration: none;
 }
 
@@ -229,7 +229,7 @@ button:active {
 }
 
 .nav-links a {
-  color: #94a3b8;
+  color: var(--text-secondary);
   font-weight: 500;
   text-decoration: none;
   font-size: 0.95rem;
@@ -237,7 +237,7 @@ button:active {
 }
 
 .nav-links a:hover {
-  color: #38bdf8;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -296,7 +296,7 @@ button:active {
   display: block;
   width: 24px;
   height: 2px;
-  background-color: #ffffff;
+  background-color: var(--text-primary);
   border-radius: 2px;
 }
 
@@ -305,7 +305,7 @@ button:active {
 }
 
 .nav-link--active {
-  color: #38bdf8;
+  color: var(--accent-color);
 }
 
 .nav-link--active::after {
@@ -315,7 +315,7 @@ button:active {
   bottom: -0.25rem;
   width: 100%;
   height: 2px;
-  background-color: #38bdf8;
+  background-color: var(--accent-color);
 }
 
 .form-status {
@@ -406,8 +406,8 @@ button:active {
 }
 
 .contact-form {
-  background-color: #1e293b;
-  border: 1px solid #334155;
+  background-color: var(--bg-secondary);
+  border: 1px solid var(--border-color);
   border-radius: 8px;
   padding: 2rem;
   display: flex;
@@ -424,14 +424,15 @@ button:active {
 .form-group label {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #cbd5e1;
+  color: var(--text-secondary);
 }
 
 .form-group input,
 .form-group select,
 .form-group textarea {
-  background-color: #0f172a;
-  border: 1px solid #334155;
+  background-color: var(--bg-primary);
+  border: 1px solid var(--border-color);
+  color: var(--text-primary);
   border-radius: 6px;
   padding: 0.75rem 1rem;
   color: #ffffff;
@@ -1055,27 +1056,35 @@ button:active {
   font-weight: 500;
 }
 
-:root {
-  /* Default / Light Theme */
-  --bg-primary: #f8fafc;
-  --bg-secondary: #ffffff;
-  --text-primary: #0f172a;
-  --text-secondary: #475569;
-  --border-color: #e2e8f0;
-  --accent-color: #0284c7;
-}
-
-[data-theme="dark"] {
-  /* Dark Theme */
+:root,
+html[data-theme="dark"],
+html.theme-dark {
   --bg-primary: #0f172a;
   --bg-secondary: #1e293b;
+  --bg-tertiary: #111827;
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
   --border-color: #334155;
   --accent-color: #38bdf8;
+  --link-color: #38bdf8;
+  --link-hover-color: #7dd3fc;
 }
 
-body {
+html[data-theme="light"],
+html.theme-light {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #ffffff;
+  --bg-tertiary: #f1f5f9;
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --border-color: #e2e8f0;
+  --accent-color: #0284c7;
+  --link-color: #0284c7;
+  --link-hover-color: #0369a1;
+}
+
+body,
+#root {
   background-color: var(--bg-primary);
   color: var(--text-primary);
   transition: background-color 0.3s ease, color 0.3s ease;
