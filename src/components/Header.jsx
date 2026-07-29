@@ -25,17 +25,20 @@ function Header() {
         </NavLink>
       </div>
 
-      <button
-        type="button"
-        className="nav-toggle"
-        aria-label="Toggle navigation"
-        aria-expanded={menuOpen}
-        onClick={() => setMenuOpen((prev) => !prev)}
-      >
-        <span />
-        <span />
-        <span />
-      </button>
+      <div className="header-actions">
+        <ThemeToggle />
+        <button
+          type="button"
+          className="nav-toggle"
+          aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+          onClick={() => setMenuOpen((prev) => !prev)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
+      </div>
 
       <nav className={`nav-links ${menuOpen ? "nav-links--open" : ""}`}>
         {navItems.map((item) => (
@@ -48,8 +51,6 @@ function Header() {
             {item.label}
           </NavLink>
         ))}
-        {/* Render ThemeToggle inside nav */}
-        <ThemeToggle />
       </nav>
     </header>
   );
