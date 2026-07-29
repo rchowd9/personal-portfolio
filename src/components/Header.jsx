@@ -1,6 +1,7 @@
 // src/components/Header.jsx
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 const navItems = [
   { to: "/", label: "Home" },
@@ -47,6 +48,8 @@ function Header() {
             {item.label}
           </NavLink>
         ))}
+        {/* Render ThemeToggle inside nav */}
+        <ThemeToggle />
       </nav>
     </header>
   );
