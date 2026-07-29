@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { FaGithub, FaLinkedin, FaEnvelope, FaFileDownload, FaArrowRight } from "react-icons/fa";
 
 export default function Home() {
@@ -15,29 +16,27 @@ export default function Home() {
           Full-Stack Developer specializing in automation & cloud solutions.
         </h2>
         <p className="hero-description">
-          Computer Science student at SUNY Old Westbury crafting scalable web applications, 
+          Computer Science student at SUNY Old Westbury crafting scalable web applications,
           cloud infrastructure, and seamless developer workflows.
         </p>
 
-        {/* Buttons */}
         <div className="hero-cta-group">
-          <a href="/projects" className="btn btn-primary">
+          <Link to="/projects" className="btn btn-primary">
             View Projects <FaArrowRight />
-          </a>
+          </Link>
           <a href={resumeUrl} target="_blank" rel="noopener noreferrer" className="btn btn-secondary">
             <FaFileDownload /> Resume
           </a>
         </div>
 
-        {/* Social Links */}
         <div className="hero-socials">
-          <a href="https://github.com/your-username" target="_blank" rel="noreferrer" aria-label="GitHub">
+          <a href="https://github.com/rchowd9" target="_blank" rel="noreferrer" aria-label="GitHub">
             <FaGithub />
           </a>
-          <a href="https://linkedin.com/in/your-profile" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+          <a href="https://www.linkedin.com/in/riasat-chowdhury-0a1232336/" target="_blank" rel="noreferrer" aria-label="LinkedIn">
             <FaLinkedin />
           </a>
-          <a href="mailto:your-email@example.com" aria-label="Email">
+          <a href="mailto:chowdhuryriasat078@gmail.com" aria-label="Email">
             <FaEnvelope />
           </a>
         </div>

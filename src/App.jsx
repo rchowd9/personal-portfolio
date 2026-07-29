@@ -11,13 +11,14 @@ import Activities from "./pages/Activities";
 import Experience from "./pages/Experience";
 import Education from "./pages/Education";
 import Contact from "./pages/Contact";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
     <Router>
       <div className="app-container">
         <Header />
-        <main className="main-content">
+        <main id="main-content" className="main-content">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/about" element={<About />} />
@@ -27,6 +28,7 @@ function App() {
             <Route path="/education" element={<Education />} />
             <Route path="/activities" element={<Activities />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Routes>
         </main>
         <Footer />

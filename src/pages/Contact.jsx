@@ -7,21 +7,40 @@ export default function Contact() {
     subject: "",
     message: "",
   });
+  const [status, setStatus] = useState({ type: "idle", message: "" });
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
+    if (status.type !== "idle") {
+      setStatus({ type: "idle", message: "" });
+    }
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    if (!formData.fullName.trim() || !formData.email.trim() || !formData.message.trim()) {
+      setStatus({ type: "error", message: "Please fill in your name, email, and message before sending." });
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(formData.email)) {
+      setStatus({ type: "error", message: "Please enter a valid email address." });
+      return;
+    }
+
     const body = `Name: ${formData.fullName}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
-    
+
     const mailtoUrl = `mailto:chowdhuryriasat078@gmail.com?subject=${encodeURIComponent(
       formData.subject || "Portfolio Contact Form"
     )}&body=${encodeURIComponent(body)}`;
 
     window.location.href = mailtoUrl;
+    setStatus({
+      type: "success",
+      message: "Your email client should open shortly. If it doesn’t, email me directly at chowdhuryriasat078@gmail.com.",
+    });
   };
 
   return (
@@ -35,7 +54,6 @@ export default function Contact() {
       </div>
 
       <div className="contact-container">
-        {/* Contact Form */}
         <form className="contact-form" onSubmit={handleSubmit}>
           <div className="form-group">
             <label htmlFor="fullName">Full Name</label>
@@ -95,21 +113,20 @@ export default function Contact() {
             ></textarea>
           </div>
 
+          {status.message ? <p className={`form-status form-status--${status.type}`}>{status.message}</p> : null}
+
           <button type="submit" className="btn-primary">
             Send Message
           </button>
         </form>
 
-        {/* Sidebar Info */}
         <div className="contact-info-card">
           <h3>Direct Contact</h3>
           <p>Prefer emailing directly or connecting on social platforms?</p>
 
           <div className="info-item">
             <strong>Email:</strong>
-            <a href="mailto:chowdhuryriasat078@gmail.com">
-              chowdhuryriasat078@gmail.com
-            </a>
+            <a href="mailto:chowdhuryriasat078@gmail.com">chowdhuryriasat078@gmail.com</a>
           </div>
 
           <div className="info-item">
@@ -119,22 +136,14 @@ export default function Contact() {
 
           <div className="info-item">
             <strong>LinkedIn:</strong>
-            <a
-              href="https://linkedin.com/in/riasat-chowdhury-0a1232336/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://www.linkedin.com/in/riasat-chowdhury-0a1232336/" target="_blank" rel="noopener noreferrer">
               riasat-chowdhury
             </a>
           </div>
 
           <div className="info-item">
             <strong>GitHub:</strong>
-            <a
-              href="https://github.com/rchowd9"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="https://github.com/rchowd9" target="_blank" rel="noopener noreferrer">
               rchowd9
             </a>
           </div>
