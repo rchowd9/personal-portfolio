@@ -9,7 +9,7 @@ export default function Projects() {
         "A React and Spring Boot dashboard that tracks pipeline health, highlights failures quickly, and supports faster incident response across delivery teams.",
       tech: ["React", "Spring Boot", "GitHub Actions"],
       liveUrl: "https://ci-cd-pipeliner-nlfx.vercel.app/",
-      repoUrl: "https://github.com/rchowd9/CI-CD-Viz"
+      repoUrl: "https://github.com/rchowd9/CI-CD-Viz",
     },
     {
       title: "In-Browser Local RAG Engine",
@@ -18,7 +18,7 @@ export default function Projects() {
       tech: ["React", "TypeScript", "Tailwind CSS", "Transformers.js", "Vite"],
       liveUrl: "https://rchowd9.github.io/browser-rags-app/",
       repoUrl: "https://github.com/rchowd9/browser-rags-app",
-},
+    },
     {
       title: "Rate My Major",
       description:
