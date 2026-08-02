@@ -16,7 +16,7 @@ export default function Projects() {
       description:
         "A privacy-first, 100% client-side Retrieval-Augmented Generation application that embeds and searches documents locally in the browser using Web Workers and Hugging Face Transformers.js.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Transformers.js", "Vite"],
-      liveUrl: "https://rchowd9.github.io/browser-rag-app/",
+      liveUrl: "https://rchowd9.github.io/browser-rags-app/",
       repoUrl: "https://github.com/rchowd9/browser-rags-app",
 },
     {
