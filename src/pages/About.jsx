@@ -1,5 +1,5 @@
 import React from "react";
-import { FaBicycle, FaGamepad, FaTableTennis, FaCode, FaGraduationCap, FaCloud } from "react-icons/fa";
+import { FaBicycle, FaGamepad, FaTableTennis, FaCode, FaGraduationCap } from "react-icons/fa";
 
 export default function About() {
   const hobbies = [
@@ -18,7 +18,11 @@ export default function About() {
       <div className="about-grid">
         {/* Left Side: Profile Image */}
         <div className="about-image-container">
-          <img src="/profile.jpg" alt="Riasat Chowdhury" className="about-image" />
+          <img 
+            src={`${import.meta.env.BASE_URL}profile.jpg`} 
+            alt="Riasat Chowdhury" 
+            className="about-image" 
+          />
         </div>
 
         {/* Right Side: Narrative Bio */}
