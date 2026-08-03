@@ -18,10 +18,10 @@ export default function About() {
       <div className="about-grid">
         {/* Left Side: Profile Image */}
         <div className="about-image-container">
-          <img 
-            src={`${import.meta.env.BASE_URL}profile.jpg`} 
-            alt="Riasat Chowdhury" 
-            className="about-image" 
+          <img
+            src="/profile.jpg"
+            alt="Riasat Chowdhury"
+            className="about-image"
           />
         </div>
 
