@@ -77,7 +77,7 @@ const skillCategories = [
     category: "Databases & Cloud",
     icon: <FaDatabase />,
     skills: [
-      { name: "Redis", icon: <SiRedis style={{ color: "#DC382D" }} /> },
+      { name: "Redis", icon: <SiRedis color="#dc382d" /> },
       { name: "MySQL", icon: <SiMysql color="#4479a1" /> },
       { name: "MongoDB", icon: <SiMongodb color="#47a248" /> },
       { name: "Supabase", icon: <SiSupabase color="#3ecf8e" /> },
