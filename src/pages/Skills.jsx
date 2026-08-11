@@ -27,6 +27,7 @@ import {
   SiXampp,
   SiRailway,
   SiVercel,
+  SiRedis,
 } from "react-icons/si";
 
 // VS Code Icons (dedicated VS Code icon set)
@@ -76,6 +77,7 @@ const skillCategories = [
     category: "Databases & Cloud",
     icon: <FaDatabase />,
     skills: [
+      { name: "Redis", icon: <SiRedis style={{ color: "#DC382D" }} /> },
       { name: "MySQL", icon: <SiMysql color="#4479a1" /> },
       { name: "MongoDB", icon: <SiMongodb color="#47a248" /> },
       { name: "Supabase", icon: <SiSupabase color="#3ecf8e" /> },
