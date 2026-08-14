@@ -117,6 +117,7 @@ const skillCategories = [
 const certifications = [
   "Google Cloud Fundamentals (Jul 2025)",
   "Intro to Technical Interview Prep (Apr 2026)",
+  "Foundations of Creative Writing Microcredential (Jul 2026)",
   "Foundations of AI Engineering (Aug 2026)",
 ];
 
