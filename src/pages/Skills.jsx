@@ -28,6 +28,7 @@ import {
   SiRailway,
   SiVercel,
   SiRedis,
+  SiSublimetext,
 } from "react-icons/si";
 
 // VS Code Icons (dedicated VS Code icon set)
@@ -98,6 +99,7 @@ const skillCategories = [
     icon: <FaLaptopCode />,
     skills: [
       { name: "VS Code", icon: <VscVscode color="#007acc" /> },
+      { name: "Sublime Text", icon: <SiSublimetext color="#ff9800" /> },
       { name: "IntelliJ IDEA", icon: <SiIntellijidea color="#fe315d" /> },
       { name: "PyCharm", icon: <SiPycharm color="#21d789" /> },
       { name: "Eclipse", icon: <SiEclipseide color="#2c2255" /> },
