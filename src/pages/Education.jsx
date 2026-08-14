@@ -12,6 +12,8 @@ export default function Education() {
     "Linear Algebra",
     "Internet & Web Technology",
     "Probability & Statistics",
+    "Artificial Intelligence",
+    "Machine Learning",
   ];
 
   return (
