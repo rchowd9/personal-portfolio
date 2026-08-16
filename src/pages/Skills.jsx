@@ -120,26 +120,15 @@ const skillCategories = [
 ];
 
 const certifications = [
-  {
-    name: "Google Cloud Fundamentals",
-    date: "Jul 2025",
-    url: "https://www.coursera.org/account/accomplishments/verify/AVUPNPLPA73M?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course", // Replace with your actual link
-  },
-  {
-    name: "Intro to Technical Interview Prep",
-    date: "Apr 2026",
-    url: "https://example.com/your-cert-link",
-  },
-  {
-    name: "Foundations of Creative Writing Microcredential",
-    date: "Jul 2026",
-    url: "https://example.com/your-cert-link",
-  },
-  {
-    name: "Foundations of AI Engineering",
-    date: "Aug 2026",
-    url: "https://example.com/your-cert-link",
-  },
+
+  "Google Cloud Fundamentals (Jul 2025)",
+
+  "Intro to Technical Interview Prep (Apr 2026)",
+
+  "Foundations of Creative Writing Microcredential (Jul 2026)",
+
+  "Foundations of AI Engineering (Aug 2026)",
+
 ];
 
 export default function Skills() {
