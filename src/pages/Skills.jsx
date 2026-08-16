@@ -123,7 +123,7 @@ const certifications = [
   {
     name: "Google Cloud Fundamentals",
     date: "Jul 2025",
-    url: "https://www.coursera.org/account/accomplishments/verify/YOUR_CERT_ID", // Replace with your actual link
+    url: "https://www.coursera.org/account/accomplishments/verify/AVUPNPLPA73M?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course", // Replace with your actual link
   },
   {
     name: "Intro to Technical Interview Prep",
