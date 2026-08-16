@@ -120,10 +120,26 @@ const skillCategories = [
 ];
 
 const certifications = [
-  "Google Cloud Fundamentals (Jul 2025)",
-  "Intro to Technical Interview Prep (Apr 2026)",
-  "Foundations of Creative Writing Microcredential (Jul 2026)",
-  "Foundations of AI Engineering (Aug 2026)",
+  {
+    name: "Google Cloud Fundamentals",
+    date: "Jul 2025",
+    url: "https://www.coursera.org/account/accomplishments/verify/YOUR_CERT_ID", // Replace with your actual link
+  },
+  {
+    name: "Intro to Technical Interview Prep",
+    date: "Apr 2026",
+    url: "https://example.com/your-cert-link",
+  },
+  {
+    name: "Foundations of Creative Writing Microcredential",
+    date: "Jul 2026",
+    url: "https://example.com/your-cert-link",
+  },
+  {
+    name: "Foundations of AI Engineering",
+    date: "Aug 2026",
+    url: "https://example.com/your-cert-link",
+  },
 ];
 
 export default function Skills() {
