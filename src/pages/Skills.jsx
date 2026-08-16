@@ -46,6 +46,7 @@ import {
   FaJava,
   FaCloud,
   FaLaptopCode,
+  FaExternalLinkAlt,
 } from "react-icons/fa";
 
 const skillCategories = [
