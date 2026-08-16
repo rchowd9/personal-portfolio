@@ -50,6 +50,14 @@ export default function Projects() {
       tech: ["PHP", "Go", "Redis", "Python"],
       repoUrl: "https://github.com/rchowd9/railway-system",
     },
+
+    {
+      title: "Slipstream",
+      description:
+        "A lightweight, polyglot demo engineered to simulate and visualize a real-time MTA transit feed. It showcases cross-language integration, dynamic route status updates, and real-time data processing to mirror a live subway tracking experience.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      repoUrl: "https://rchowd9.github.io/Slipstream/",
+    },
   ];
 
   return (
