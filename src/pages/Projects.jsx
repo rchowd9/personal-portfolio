@@ -54,9 +54,10 @@ export default function Projects() {
     {
       title: "Slipstream",
       description:
-        "A lightweight, polyglot demo engineered to simulate and visualize a real-time MTA transit feed. It showcases cross-language integration, dynamic route status updates, and real-time data processing to mirror a live subway tracking experience.",
+        "A fast-paced 1v1 HTML5 fighting game built around a high-stakes 'one-hit KO' dash mechanic. Designed as a software engineering class project, it implements a state machine managing 'SLIPSTREAM', 'RECOVERY', and 'NEUTRAL' states to simulate precise frame-dependent combat, collision detection, and draw conditions.",
       tech: ["HTML", "CSS", "JavaScript"],
-      repoUrl: "https://rchowd9.github.io/Slipstream/",
+      liveUrl: "https://rchowd9.github.io/Slipstream/",
+      repoUrl: "https://github.com/rchowd9/Slipstream",
     },
   ];
 
