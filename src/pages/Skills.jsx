@@ -30,6 +30,7 @@ import {
   SiRedis,
   SiSublimetext,
   SiBootstrap,
+  SiNextdotjs,
 } from "react-icons/si";
 
 // VS Code Icons (dedicated VS Code icon set)
@@ -70,11 +71,13 @@ const skillCategories = [
     icon: <FaServer />,
     skills: [
       { name: "React", icon: <SiReact color="#61dafb" /> },
+      { name: "Next.js", icon: <SiNextdotjs color="currentColor" /> },
       { name: "Node.js", icon: <SiNodedotjs color="#339933" /> },
       { name: "Spring Boot", icon: <SiSpringboot color="#6db33f" /> },
       { name: "Express.js", icon: <SiExpress color="#e5e7eb" /> },
       { name: "Bootstrap", icon: <SiBootstrap color="#712cf9" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss color="#06b6d4" /> },
+
     ],
   },
   {
