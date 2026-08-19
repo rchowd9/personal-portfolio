@@ -59,6 +59,15 @@ export default function Projects() {
       liveUrl: "https://rchowd9.github.io/Slipstream/",
       repoUrl: "https://github.com/rchowd9/Slipstream",
     },
+
+    {
+      title: "Advanced Math Calculator",
+      description:
+        "A React and Spring Boot dashboard that tracks pipeline health, highlights failures quickly, and supports faster incident response across delivery teams.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://rchowd9.github.io/AdvancedMathCalc/",
+      repoUrl: "https://github.com/rchowd9/AdvancedMathCalc",
+    },
   ];
 
   return (
