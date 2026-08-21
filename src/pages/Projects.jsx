@@ -63,7 +63,7 @@ export default function Projects() {
     {
       title: "Advanced Math Calculator",
       description:
-        "A React and Spring Boot dashboard that tracks pipeline health, highlights failures quickly, and supports faster incident response across delivery teams.",
+        "A math calculator that can do advanced functions.",
       tech: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://rchowd9.github.io/AdvancedMathCalc/",
       repoUrl: "https://github.com/rchowd9/AdvancedMathCalc",
