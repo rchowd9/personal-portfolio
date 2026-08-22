@@ -4,6 +4,18 @@ import { FaBriefcase } from "react-icons/fa";
 export default function Experience() {
   const experiences = [
     {
+      company: "USA Entertainment Ventures",
+      role: "Full Stack Developer",
+      duration: "Jun 2026 – Present",
+      location: "Hicksville, NY",
+      achievements: [
+        "Developed features for a React Native and TypeScript mobile application focused on social engagement for college athletes and fans.",
+        "Built a two-way Supabase and GoHighLevel CRM sync, automating lead workflows and saving 15+ hours of manual data entry per week.",
+        "Collaborated with developers through Git, feature branches, pull requests, code reviews, and sprint-based development.",
+      ],
+    },
+
+    {
       company: "Qualtrics",
       role: "Data Optimizer",
       duration: "Jul 2025 – Dec 2025",
