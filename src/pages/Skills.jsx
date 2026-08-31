@@ -110,6 +110,7 @@ const skillCategories = [
       { name: "IntelliJ IDEA", icon: <SiIntellijidea color="#fe315d" /> },
       { name: "PyCharm", icon: <SiPycharm color="#21d789" /> },
       { name: "Eclipse", icon: <SiEclipseide color="#2c2255" /> },
+      { name: "Jupyter Notebook", icon: <SiJupyter color="#f37626" /> },
     ],
   },
   {
