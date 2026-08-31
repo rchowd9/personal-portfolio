@@ -6,7 +6,7 @@ export default function Experience() {
     {
       company: "USA Entertainment Ventures",
       role: "Full Stack Developer",
-      duration: "Jun 2026 – Present",
+      duration: "Jun 2026 – Sep 2026",
       location: "Hicksville, NY",
       achievements: [
         "Developed features for a React Native and TypeScript mobile application focused on social engagement for college athletes and fans.",
