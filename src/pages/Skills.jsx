@@ -31,6 +31,7 @@ import {
   SiSublimetext,
   SiBootstrap,
   SiNextdotjs,
+  SiJupyter,
 } from "react-icons/si";
 
 // VS Code Icons (dedicated VS Code icon set)
