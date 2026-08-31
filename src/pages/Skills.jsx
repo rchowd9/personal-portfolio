@@ -100,6 +100,7 @@ const skillCategories = [
     skills: [
       { name: "Git", icon: <SiGit color="#f05032" /> },
       { name: "Docker", icon: <SiDocker color="#2496ed" /> },
+      { name: "Anaconda", icon: <SiAnaconda color="#44A833" /> },
     ],
   },
   {
