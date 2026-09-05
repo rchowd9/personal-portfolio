@@ -73,7 +73,7 @@ export default function Projects() {
       title: "Code Quest Academy",
       description:
         "A math calculator that can do advanced functions.",
-      tech: ["HTML", "CSS", "JavaScript"],
+      tech: ["TypeScript", "CSS", "Next.js"],
       liveUrl: "https://projec-dun-chi.vercel.app/",
       repoUrl: "https://github.com/rchowd9/FullStackProj",
     },
