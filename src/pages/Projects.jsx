@@ -68,6 +68,15 @@ export default function Projects() {
       liveUrl: "https://rchowd9.github.io/AdvancedMathCalc/",
       repoUrl: "https://github.com/rchowd9/AdvancedMathCalc",
     },
+
+    {
+      title: "Code Quest Academy",
+      description:
+        "A math calculator that can do advanced functions.",
+      tech: ["HTML", "CSS", "JavaScript"],
+      liveUrl: "https://projec-dun-chi.vercel.app/",
+      repoUrl: "https://github.com/rchowd9/FullStackProj",
+    },
   ];
 
   return (
