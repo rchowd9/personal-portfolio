@@ -63,7 +63,7 @@ export default function Projects() {
     {
       title: "Advanced Math Calculator",
       description:
-        "A math calculator that can do advanced functions.",
+        "A browser‑based calculator capable of performing advanced math operations including algebra, calculus, and matrix computations.",
       tech: ["HTML", "CSS", "JavaScript"],
       liveUrl: "https://rchowd9.github.io/AdvancedMathCalc/",
       repoUrl: "https://github.com/rchowd9/AdvancedMathCalc",
@@ -77,7 +77,7 @@ export default function Projects() {
       liveUrl: "https://projec-dun-chi.vercel.app/",
       repoUrl: "https://github.com/rchowd9/FullStackProj",
     },
-  ];
+  ];    
 
   return (
     <section className="projects-section">
