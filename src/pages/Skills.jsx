@@ -33,6 +33,7 @@ import {
   SiNextdotjs,
   SiJupyter,
   SiAnaconda,
+  SiGithubactions,
 } from "react-icons/si";
 
 // VS Code Icons (dedicated VS Code icon set)
