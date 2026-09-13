@@ -53,7 +53,7 @@ import {
   FaJava,
   FaCloud,
   FaLaptopCode,
-  FaExternalLinkAlt,
+  FaHashtag,
 } from "react-icons/fa";
 
 const skillCategories = [
