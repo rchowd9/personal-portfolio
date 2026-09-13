@@ -34,6 +34,8 @@ import {
   SiJupyter,
   SiAnaconda,
   SiGithubactions,
+  SiCsharp,
+
 } from "react-icons/si";
 
 // VS Code Icons (dedicated VS Code icon set)
