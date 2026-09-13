@@ -35,6 +35,7 @@ import {
   SiAnaconda,
   SiGithubactions,
   SiCsharp,
+  SiMicrosoftazure,
 
 } from "react-icons/si";
 
