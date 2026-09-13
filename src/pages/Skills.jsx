@@ -96,6 +96,7 @@ const skillCategories = [
       { name: "Supabase", icon: <SiSupabase color="#3ecf8e" /> },
       { name: "AWS", icon: <FaAws color="#ff9900" /> },
       { name: "Google Cloud", icon: <SiGooglecloud color="#4285f4" /> },
+      { name: "Microsoft Azure", icon: <SiMicrosoftazure color="#0089d6" /> }
     ],
   },
   {
