@@ -34,8 +34,6 @@ import {
   SiJupyter,
   SiAnaconda,
   SiGithubactions,
-  SiCsharp,
-  SiMicrosoftazure,
 
 } from "react-icons/si";
 
@@ -52,6 +50,7 @@ import {
   FaAws,
   FaJava,
   FaCloud,
+  FaMicrosoft,
   FaLaptopCode,
   FaHashtag,
 } from "react-icons/fa";
@@ -63,7 +62,7 @@ const skillCategories = [
     skills: [
       { name: "JavaScript", icon: <SiJavascript color="#f7df1e" /> },
       { name: "TypeScript", icon: <SiTypescript color="#3178c6" /> },
-      { name: "C#", icon: <SiCsharp color="#512bd4" /> },
+      { name: "C#", icon: <FaHashtag color="#512bd4" /> },
       { name: "Java", icon: <FaJava color="#007396" /> },
       { name: "C++", icon: <SiCplusplus color="#00599c" /> },
       { name: "Python", icon: <SiPython color="#3776ab" /> },
@@ -97,7 +96,7 @@ const skillCategories = [
       { name: "Supabase", icon: <SiSupabase color="#3ecf8e" /> },
       { name: "AWS", icon: <FaAws color="#ff9900" /> },
       { name: "Google Cloud", icon: <SiGooglecloud color="#4285f4" /> },
-      { name: "Microsoft Azure", icon: <SiMicrosoftazure color="#0089d6" /> }
+      { name: "Microsoft Azure", icon: <FaMicrosoft color="#0089d6" /> }
     ],
   },
   {
