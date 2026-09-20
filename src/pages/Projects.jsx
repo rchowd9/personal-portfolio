@@ -56,7 +56,7 @@ export default function Projects() {
     {
       title: "Slipstream",
       description:
-        "A fast-paced 1v1 HTML5 fighting game built around a high-stakes 'one-hit KO' dash mechanic. Designed as a software engineering class project, it implements a state machine managing 'SLIPSTREAM', 'RECOVERY', and 'NEUTRAL' states to simulate precise frame-dependent combat, collision detection, and draw conditions.",
+        "A fast-paced 1v1 HTML5 fighting game built around a high-stakes one-hit KO dash mechanic. The browser game uses a state machine for frame-dependent combat, while a .NET 8 Azure Functions API and Azure Table Storage support health checks, match results, and leaderboards.",
       tech: [
         "HTML",
         "CSS",
