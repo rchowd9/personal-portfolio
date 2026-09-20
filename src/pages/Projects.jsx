@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useMemo, useState } from "react";
 import ProjectCard from "../components/ProjectCard";
 
 export default function Projects() {
@@ -8,6 +8,7 @@ export default function Projects() {
       description:
         "A React and Spring Boot dashboard that tracks pipeline health, highlights failures quickly, and supports faster incident response across delivery teams.",
       tech: ["React", "Spring Boot", "GitHub Actions"],
+      featured: true,
       liveUrl: "https://ci-cd-pipeliner-nlfx.vercel.app/",
       repoUrl: "https://github.com/rchowd9/CI-CD-Viz",
     },
@@ -16,6 +17,7 @@ export default function Projects() {
       description:
         "A privacy-first, 100% client-side Retrieval-Augmented Generation application that embeds and searches documents locally in the browser using Web Workers and Hugging Face Transformers.js.",
       tech: ["React", "TypeScript", "Tailwind CSS", "Transformers.js", "Vite"],
+      featured: true,
       liveUrl: "https://rchowd9.github.io/browser-rags-app/",
       repoUrl: "https://github.com/rchowd9/browser-rags-app",
     },
@@ -55,7 +57,15 @@ export default function Projects() {
       title: "Slipstream",
       description:
         "A fast-paced 1v1 HTML5 fighting game built around a high-stakes 'one-hit KO' dash mechanic. Designed as a software engineering class project, it implements a state machine managing 'SLIPSTREAM', 'RECOVERY', and 'NEUTRAL' states to simulate precise frame-dependent combat, collision detection, and draw conditions.",
-      tech: ["HTML", "CSS", "JavaScript", "C#", "Microsoft Azure"],
+      tech: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "C# / .NET 8",
+        "Azure Functions",
+        "Azure Table Storage",
+        "Vercel",
+      ],
       liveUrl: "https://slipstream-iota-five.vercel.app/",
       repoUrl: "https://github.com/rchowd9/Slipstream",
     },
@@ -79,6 +89,29 @@ export default function Projects() {
     },
   ];    
 
+  const [query, setQuery] = useState("");
+  const [activeTech, setActiveTech] = useState("All");
+
+  const technologies = useMemo(
+    () => ["All", ...new Set(projects.flatMap((project) => project.tech))],
+    [projects]
+  );
+
+  const filteredProjects = useMemo(() => {
+    const normalizedQuery = query.trim().toLowerCase();
+
+    return projects.filter((project) => {
+      const matchesTech = activeTech === "All" || project.tech.includes(activeTech);
+      const matchesQuery = !normalizedQuery || [
+        project.title,
+        project.description,
+        ...project.tech,
+      ].join(" ").toLowerCase().includes(normalizedQuery);
+
+      return matchesTech && matchesQuery;
+    });
+  }, [activeTech, projects, query]);
+
   return (
     <section className="projects-section">
       <div className="section-heading">
@@ -90,11 +123,57 @@ export default function Projects() {
         </p>
       </div>
 
-      <div className="projects-grid">
-        {projects.map((project) => (
-          <ProjectCard key={project.title} {...project} />
-        ))}
+      <div className="projects-toolbar" aria-label="Filter projects">
+        <label className="project-search">
+          <span>Search projects</span>
+          <input
+            type="search"
+            value={query}
+            onChange={(event) => setQuery(event.target.value)}
+            placeholder="Try React, cloud, or game"
+          />
+        </label>
+        <div className="project-filter-group" aria-label="Filter by technology">
+          {technologies.map((technology) => (
+            <button
+              key={technology}
+              type="button"
+              className={`project-filter ${activeTech === technology ? "project-filter--active" : ""}`}
+              onClick={() => setActiveTech(technology)}
+              aria-pressed={activeTech === technology}
+            >
+              {technology}
+            </button>
+          ))}
+        </div>
       </div>
+
+      <p className="project-results" aria-live="polite">
+        Showing {filteredProjects.length} of {projects.length} projects
+      </p>
+
+      {filteredProjects.length ? (
+        <div className="projects-grid">
+          {filteredProjects.map((project) => (
+            <ProjectCard key={project.title} {...project} />
+          ))}
+        </div>
+      ) : (
+        <div className="empty-projects">
+          <h3>No matching projects</h3>
+          <p>Try a different keyword or reset the technology filter.</p>
+          <button
+            type="button"
+            className="btn-primary"
+            onClick={() => {
+              setQuery("");
+              setActiveTech("All");
+            }}
+          >
+            Reset filters
+          </button>
+        </div>
+      )}
     </section>
   );
 }

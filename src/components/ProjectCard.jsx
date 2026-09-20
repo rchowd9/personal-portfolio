@@ -7,12 +7,14 @@ export default function ProjectCard({
   liveUrl,
   repoUrl,
   link,
+  featured = false,
 }) {
   const projectLink = liveUrl || link;
 
   return (
     <article className="project-card">
       <div className="project-card__content">
+        {featured ? <span className="project-card__eyebrow">Featured project</span> : null}
         <h3>{title}</h3>
         <p>{description}</p>
         <div className="project-tags">
