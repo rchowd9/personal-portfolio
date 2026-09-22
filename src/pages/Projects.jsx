@@ -74,7 +74,7 @@ export default function Projects() {
       title: "Advanced Math Calculator",
       description:
         "A browser‑based calculator capable of performing advanced math operations including algebra, calculus, and matrix computations.",
-      tech: ["HTML", "CSS", "JavaScript", "Plotly.js"],
+      tech: ["HTML", "CSS", "JavaScript", "Plotly.js", "Math.js"],
       liveUrl: "https://rchowd9.github.io/AdvancedMathCalc/",
       repoUrl: "https://github.com/rchowd9/AdvancedMathCalc",
     },
