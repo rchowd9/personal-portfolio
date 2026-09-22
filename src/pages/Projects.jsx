@@ -83,7 +83,7 @@ export default function Projects() {
       title: "Code Quest Academy",
       description:
         "An interactive learning platform that teaches coding fundamentals through lessons, challenges, and gamified progress tracking.",
-      tech: ["TypeScript", "CSS", "Next.js"],
+      tech: ["TypeScript", "CSS", "Next.js", "Hono"],
       liveUrl: "https://projec-dun-chi.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/FullStackProj",
     },
