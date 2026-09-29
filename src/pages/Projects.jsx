@@ -93,7 +93,7 @@ export default function Projects() {
       description:
         "An interactive learning platform that teaches coding fundamentals through lessons, challenges, and gamified progress tracking.",
       tech: ["C++", "SystemVerilog", "Next.js", "Hono", "Redis"],
-      liveUrl: "https://projec-dun-chi.vercel.app/", 
+      repoUrl: "https://github.com/rchowd9/FullStackProj", 
     },
   ];    
 
