@@ -92,7 +92,7 @@ export default function Projects() {
       title: "SIMD-Compute-Unit",
       description:
         "An interactive learning platform that teaches coding fundamentals through lessons, challenges, and gamified progress tracking.",
-      tech: ["C++", "SystemVerilog", "Next.js", "Hono", "Redis"],
+      tech: ["C++", "SystemVerilog"],
       repoUrl: "https://github.com/rchowd9/SIMD-Compute-Unit", 
     },
   ];    
