@@ -89,7 +89,7 @@ export default function Projects() {
     },
 
     {
-      title: "Code Quest Academy",
+      title: "SIMD-Compute-Unit",
       description:
         "An interactive learning platform that teaches coding fundamentals through lessons, challenges, and gamified progress tracking.",
       tech: ["TypeScript", "CSS", "Next.js", "Hono", "Redis"],
