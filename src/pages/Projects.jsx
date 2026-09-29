@@ -87,6 +87,15 @@ export default function Projects() {
       liveUrl: "https://projec-dun-chi.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/FullStackProj",
     },
+
+    {
+      title: "Code Quest Academy",
+      description:
+        "An interactive learning platform that teaches coding fundamentals through lessons, challenges, and gamified progress tracking.",
+      tech: ["TypeScript", "CSS", "Next.js", "Hono", "Redis"],
+      liveUrl: "https://projec-dun-chi.vercel.app/", 
+      repoUrl: "https://github.com/rchowd9/FullStackProj",
+    },
   ];    
 
   const [query, setQuery] = useState("");
