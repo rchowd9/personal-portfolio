@@ -34,6 +34,7 @@ import {
   SiJupyter,
   SiAnaconda,
   SiGithubactions,
+  SiOpenjdk,
 
 } from "react-icons/si";
 
