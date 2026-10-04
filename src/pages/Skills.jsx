@@ -82,6 +82,7 @@ const skillCategories = [
       { name: "Node.js", icon: <SiNodedotjs color="#339933" /> },
       { name: "Spring Boot", icon: <SiSpringboot color="#6db33f" /> },
       { name: "Express.js", icon: <SiExpress color="#e5e7eb" /> },
+      { name: "FXML / JavaFX", icon: <FaCode color="#e76f51" /> },
       { name: "Bootstrap", icon: <SiBootstrap color="#712cf9" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss color="#06b6d4" /> },
 
