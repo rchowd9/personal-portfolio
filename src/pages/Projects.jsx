@@ -100,7 +100,7 @@ export default function Projects() {
       title: "Wizard101 Deck Builder",
       description:
         "A hardware-level simulation modeling single-instruction multiple-data execution streams and vector register behavior.",
-      tech: ["C++", "SystemVerilog"],
+      tech: ["FXML", "Java"],
       repoUrl: "https://github.com/rchowd9/SIMD-Compute-Unit", 
     },
   ];    
