@@ -95,6 +95,14 @@ export default function Projects() {
       tech: ["C++", "SystemVerilog"],
       repoUrl: "https://github.com/rchowd9/SIMD-Compute-Unit", 
     },
+
+    {
+      title: "SIMD-Compute-Unit",
+      description:
+        "A hardware-level simulation modeling single-instruction multiple-data execution streams and vector register behavior.",
+      tech: ["C++", "SystemVerilog"],
+      repoUrl: "https://github.com/rchowd9/SIMD-Compute-Unit", 
+    },
   ];    
 
   const [query, setQuery] = useState("");
