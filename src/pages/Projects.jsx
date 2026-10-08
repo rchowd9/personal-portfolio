@@ -97,7 +97,7 @@ export default function Projects() {
     },
 
     {
-      title: "SIMD-Compute-Unit",
+      title: "Wizard101 Deck Builder",
       description:
         "A hardware-level simulation modeling single-instruction multiple-data execution streams and vector register behavior.",
       tech: ["C++", "SystemVerilog"],
