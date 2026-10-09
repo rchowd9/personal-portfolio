@@ -21,7 +21,7 @@ export default function Experience() {
       duration: "Jul 2025 – Dec 2025",
       location: "New York City, NY",
       achievements: [
-        "Automated mobile campaign data validation using Python, achieving 100% accuracy.",
+        "Automated mobile campaign data validation using \textbf{Python}, reducing repetitive manual review work.",
         "Developed audit tools that identified data inconsistencies and supported quality assurance for enterprise client campaigns.",
        "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
       ],
