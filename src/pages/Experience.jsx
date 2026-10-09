@@ -22,7 +22,7 @@ export default function Experience() {
       location: "New York City, NY",
       achievements: [
         "Automated mobile campaign data validation using Python, achieving 100% accuracy.",
-        "Built audit tools correcting 50+ technical errors per month for enterprise clients.",
+        "Developed audit tools that identified data inconsistencies and supported quality assurance for enterprise client campaigns.",
        "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
       ],
     },
