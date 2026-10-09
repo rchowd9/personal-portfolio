@@ -23,7 +23,7 @@ export default function Experience() {
       achievements: [
         "Automated mobile campaign data validation using Python, achieving 100% accuracy.",
         "Built audit tools correcting 50+ technical errors per month for enterprise clients.",
-        "Increased task processing speed by 25% with script‑driven verification of 100+ concurrent tasks.",
+       "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
       ],
     },
   ];
