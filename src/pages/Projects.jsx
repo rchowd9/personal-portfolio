@@ -101,7 +101,7 @@ export default function Projects() {
       description:
         "A hardware-level simulation modeling single-instruction multiple-data execution streams and vector register behavior.",
       tech: ["FXML", "Java"],
-      repoUrl: "https://github.com/rchowd9/SIMD-Compute-Unit", 
+      repoUrl: "https://github.com/rchowd9/W101Deck", 
     },
   ];    
 
