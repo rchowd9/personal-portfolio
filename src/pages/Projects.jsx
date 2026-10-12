@@ -101,6 +101,7 @@ export default function Projects() {
       description:
         "A hardware-level simulation modeling single-instruction multiple-data execution streams and vector register behavior.",
       tech: ["FXML", "Java"],
+      liveUrl: "https://w101deck-web.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/W101Deck", 
     },
   ];    
