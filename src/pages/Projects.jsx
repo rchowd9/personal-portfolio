@@ -100,7 +100,7 @@ export default function Projects() {
       title: "Wizard101 Deck Builder",
       description:
         "A hardware-level simulation modeling single-instruction multiple-data execution streams and vector register behavior.",
-      tech: ["FXML", "Java", "HTML", "CSS"],
+      tech: ["FXML", "Java", "HTML", "CSS", "JavaScript"],
       liveUrl: "https://w101deck-web.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/W101Deck", 
     },
