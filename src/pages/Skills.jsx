@@ -54,6 +54,7 @@ import {
   FaMicrosoft,
   FaLaptopCode,
   FaHashtag,
+  FaTable,
 } from "react-icons/fa";
 
 const skillCategories = [
