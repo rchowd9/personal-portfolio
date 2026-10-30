@@ -14,6 +14,8 @@ export default function Education() {
     "Probability & Statistics",
     "Artificial Intelligence",
     "Machine Learning",
+    "Discrete Mathematics" 
+
   ];
 
   return (
