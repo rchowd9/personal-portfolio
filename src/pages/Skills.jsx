@@ -36,6 +36,7 @@ import {
   SiGithubactions,
   SiOpenjdk,
   SiVuedotjs,
+  SiVite,
 
 } from "react-icons/si";
 
