@@ -112,6 +112,7 @@ const skillCategories = [
       { name: "Git", icon: <SiGit color="#f05032" /> },
       { name: "Docker", icon: <SiDocker color="#2496ed" /> },
       { name: "SchemaSpy", icon: <FaTable color="#3b82f6" /> },
+      { name: "Vite", icon: <SiVite color="#646cff" /> },
       { name: "Anaconda", icon: <SiAnaconda color="#44A833" /> },
     ],
   },
