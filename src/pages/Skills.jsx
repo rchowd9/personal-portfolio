@@ -35,6 +35,7 @@ import {
   SiAnaconda,
   SiGithubactions,
   SiOpenjdk,
+  SiVuedotjs,
 
 } from "react-icons/si";
 
