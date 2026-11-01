@@ -37,6 +37,7 @@ import {
   SiOpenjdk,
   SiVuedotjs,
   SiVite,
+  SiStreamlit,
 
 } from "react-icons/si";
 
