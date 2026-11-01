@@ -133,6 +133,7 @@ const skillCategories = [
     category: "Servers & Deployment",
     icon: <FaCloud />,
     skills: [
+      { name: "Streamlit", icon: <SiStreamlit color="#FF4B4B" /> },
       { name: "GitHub Actions", icon: <SiGithubactions color="#2088ff" /> },
       { name: "XAMPP", icon: <SiXampp color="#fb7a24" /> },
       { name: "Railway", icon: <SiRailway color="#0b0d0e" /> },
