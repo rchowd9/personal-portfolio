@@ -92,6 +92,7 @@ const skillCategories = [
       { name: "FXML / JavaFX", icon: <FaCode color="#e76f51" /> },
       { name: "Bootstrap", icon: <SiBootstrap color="#712cf9" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss color="#06b6d4" /> },
+      { name: "TensorFlow", icon: <SiTensorflow color="#FF6F00" /> },
 
     ],
   },
