@@ -93,6 +93,7 @@ const skillCategories = [
       { name: "Bootstrap", icon: <SiBootstrap color="#712cf9" /> },
       { name: "Tailwind CSS", icon: <SiTailwindcss color="#06b6d4" /> },
       { name: "TensorFlow", icon: <SiTensorflow color="#FF6F00" /> },
+      { name: "Flask", icon: <SiFlask color="currentColor" /> },
 
     ],
   },
