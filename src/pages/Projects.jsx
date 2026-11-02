@@ -110,8 +110,8 @@ export default function Projects() {
       description:
         "A desktop application designed for Wizard101 players to construct, optimize, and simulate card draw probabilities for custom battle decks.",
       tech: ["Python", "TensorFlow", "Flask"],
-      liveUrl: "https://w101deck-web.vercel.app/", 
-      repoUrl: "https://github.com/rchowd9/W101Deck", 
+      liveUrl: "https://algoviz-xkgtezddvb3m8nxjcqbwep.streamlit.app/", 
+      repoUrl: "https://github.com/rchowd9/AlgoViz", 
     },
   ];    
 
