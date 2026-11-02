@@ -39,6 +39,7 @@ import {
   SiVite,
   SiStreamlit,
   SiTensorflow,
+  SiFlask,
 
 } from "react-icons/si";
 
