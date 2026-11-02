@@ -38,6 +38,7 @@ import {
   SiVuedotjs,
   SiVite,
   SiStreamlit,
+  SiTensorflow,
 
 } from "react-icons/si";
 
