@@ -108,7 +108,7 @@ export default function Projects() {
     {
       title: "AlgoViz",
       description:
-        "A desktop application designed for Wizard101 players to construct, optimize, and simulate card draw probabilities for custom battle decks.",
+        "A application for visualizing algorithms.",
       tech: ["Python", "TensorFlow", "Flask"],
       liveUrl: "https://algoviz-xkgtezddvb3m8nxjcqbwep.streamlit.app/", 
       repoUrl: "https://github.com/rchowd9/AlgoViz", 
