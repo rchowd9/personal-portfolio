@@ -3,6 +3,19 @@ import { FaBriefcase } from "react-icons/fa";
 
 export default function Experience() {
   const experiences = [
+
+    {
+      company: "Qualtrics",
+      role: "Data Optimizer",
+      duration: "Jul 2025 – Dec 2025",
+      location: "New York City, NY",
+      achievements: [
+        "Automated mobile campaign data validation using Python, reducing repetitive manual review work.",
+        "Developed audit tools that identified data inconsistencies and supported quality assurance for enterprise client campaigns.",
+       "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
+      ],
+    },
+
     {
       company: "USA Entertainment Ventures",
       role: "Full Stack Developer",
