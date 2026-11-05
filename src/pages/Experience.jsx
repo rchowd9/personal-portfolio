@@ -7,7 +7,7 @@ export default function Experience() {
     {
       company: "SupplyBistro",
       role: "Software Testing Intern",
-      duration: "Jul 2025 – Dec 2025",
+      duration: "Oct 2026 - Present",
       location: "New York City, NY",
       achievements: [
         "Automated mobile campaign data validation using Python, reducing repetitive manual review work.",
