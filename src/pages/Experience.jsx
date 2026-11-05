@@ -8,7 +8,7 @@ export default function Experience() {
       company: "SupplyBistro",
       role: "Software Testing Intern",
       duration: "Oct 2026 - Present",
-      location: "New York City, NY",
+      location: "Hicksville, NY",
       achievements: [
         "Automated mobile campaign data validation using Python, reducing repetitive manual review work.",
         "Developed audit tools that identified data inconsistencies and supported quality assurance for enterprise client campaigns.",
