@@ -6,7 +6,7 @@ export default function Experience() {
 
     {
       company: "SupplyBistro",
-      role: "Data Optimizer",
+      role: "Software Testing Intern",
       duration: "Jul 2025 – Dec 2025",
       location: "New York City, NY",
       achievements: [
