@@ -5,7 +5,7 @@ export default function Experience() {
   const experiences = [
 
     {
-      company: "Qualtrics",
+      company: "SupplyBistro",
       role: "Data Optimizer",
       duration: "Jul 2025 – Dec 2025",
       location: "New York City, NY",
