@@ -10,7 +10,7 @@ export default function Experience() {
       duration: "Oct 2026 - Present",
       location: "Hicksville, NY",
       achievements: [
-        "Automated mobile campaign data validation using Python, reducing repetitive manual review work.",
+        "Execute functional and regression tests across live SaaS workflows, translating user stories and acceptance criteria into clear, repeatable test cases.",
         "Identify and document defects with reproduction steps, expected versus actual behavior, and supporting evidence; validate fixes with engineering and product teams.",
        "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
       ],
