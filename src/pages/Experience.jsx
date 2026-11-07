@@ -11,7 +11,7 @@ export default function Experience() {
       location: "Hicksville, NY",
       achievements: [
         "Automated mobile campaign data validation using Python, reducing repetitive manual review work.",
-        "Developed audit tools that identified data inconsistencies and supported quality assurance for enterprise client campaigns.",
+        "Identify and document defects with reproduction steps, expected versus actual behavior, and supporting evidence; validate fixes with engineering and product teams.",
        "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
       ],
     },
