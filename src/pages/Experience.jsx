@@ -12,7 +12,7 @@ export default function Experience() {
       achievements: [
         "Execute functional and regression tests across live SaaS workflows, translating user stories and acceptance criteria into clear, repeatable test cases.",
         "Identify and document defects with reproduction steps, expected versus actual behavior, and supporting evidence; validate fixes with engineering and product teams.",
-       "Managed and verified 100+ concurrent campaign tasks, ensuring accurate execution and timely delivery.",
+       "Participate in Agile/Scrum delivery and use GitHub, browser developer tools, and AI-assisted techniques to improve testing coverage and efficiency.",
       ],
     },
 
