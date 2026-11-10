@@ -113,6 +113,15 @@ export default function Projects() {
       liveUrl: "https://algoviz-xkgtezddvb3m8nxjcqbwep.streamlit.app/", 
       repoUrl: "https://github.com/rchowd9/AlgoViz", 
     },
+
+    {
+      title: "AlgoViz",
+      description:
+        "An interactive web application for visualizing sorting, pathfinding, and graph traversal algorithms in real time with step-by-step execution controls.",
+      tech: ["Python", "TensorFlow", "Flask"],
+      liveUrl: "https://algoviz-xkgtezddvb3m8nxjcqbwep.streamlit.app/", 
+      repoUrl: "https://github.com/rchowd9/AlgoViz", 
+    },
   ];    
 
   const [query, setQuery] = useState("");
