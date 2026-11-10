@@ -115,7 +115,7 @@ export default function Projects() {
     },
 
     {
-      title: "AlgoViz",
+      title: "MacroMind",
       description:
         "An interactive web application for visualizing sorting, pathfinding, and graph traversal algorithms in real time with step-by-step execution controls.",
       tech: ["Python", "TensorFlow", "Flask"],
