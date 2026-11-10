@@ -120,7 +120,7 @@ export default function Projects() {
         "An interactive web application for visualizing sorting, pathfinding, and graph traversal algorithms in real time with step-by-step execution controls.",
       tech: ["Python", "Django"],
       liveUrl: "https://algoviz-xkgtezddvb3m8nxjcqbwep.streamlit.app/", 
-      repoUrl: "https://github.com/rchowd9/AlgoViz", 
+      repoUrl: "https://github.com/rchowd9/MacroMind", 
     },
   ];    
 
