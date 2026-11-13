@@ -86,6 +86,7 @@ const skillCategories = [
     skills: [
       { name: "React", icon: <SiReact color="#61dafb" /> },
       { name: "Vue.js", icon: <SiVuedotjs color="#42b883" /> },
+      { name: "Django", icon: <SiDjango color="#092E20" /> },
       { name: "Next.js", icon: <SiNextdotjs color="currentColor" /> },
       { name: "Node.js", icon: <SiNodedotjs color="#339933" /> },
       { name: "Spring Boot", icon: <SiSpringboot color="#6db33f" /> },
