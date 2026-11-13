@@ -40,6 +40,7 @@ import {
   SiStreamlit,
   SiTensorflow,
   SiFlask,
+  SiDjango,
 
 } from "react-icons/si";
 
