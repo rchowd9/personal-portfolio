@@ -38,23 +38,6 @@ export default function Projects() {
     },
 
     {
-      title: "Slipstream",
-      description:
-        "A fast-paced 1v1 HTML5 fighting game built around a high-stakes one-hit KO dash mechanic. The browser game uses a state machine for frame-dependent combat, while a .NET 8 Azure Functions API and Azure Table Storage support health checks, match results, and leaderboards.",
-      tech: [
-        "HTML",
-        "CSS",
-        "JavaScript",
-        "C# / .NET 8",
-        "Azure Functions",
-        "Azure Table Storage",
-        "Vercel",
-      ],
-      liveUrl: "https://slipstream-iota-five.vercel.app/",
-      repoUrl: "https://github.com/rchowd9/Slipstream",
-    },
-
-    {
       title: "Advanced Math Calculator",
       description:
         "A browser‑based calculator capable of performing advanced math operations including algebra, calculus, and matrix computations.",
