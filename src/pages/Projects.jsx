@@ -28,14 +28,7 @@ export default function Projects() {
       tech: ["Python", "React", "JavaScript", "Recharts"],
       liveUrl: "https://major-roast-b107bbce.base44.app/",
     },
-    {
-      title: "AI Maze Simulation",
-      description:
-        "An interactive maze experience that adapts hints in real time and uses behavioral analytics to improve the player journey.",
-      tech: ["JavaScript", "React", "Web3", "Open AI API"],
-      liveUrl: "https://toq2gn.jdoodle.io/",
-      repoUrl: "https://github.com/rchowd9/AI-MazeGame",
-    },
+    
     {
       title: "Pokemon Battle Simulator",
       description:
