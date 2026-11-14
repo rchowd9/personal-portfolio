@@ -64,15 +64,6 @@ export default function Projects() {
     },
 
     {
-      title: "Wizard101 Deck Builder",
-      description:
-        "A desktop application designed for Wizard101 players to construct, optimize, and simulate card draw probabilities for custom battle decks.",
-      tech: ["FXML", "Java", "HTML", "CSS", "JavaScript"],
-      liveUrl: "https://w101deck-web.vercel.app/", 
-      repoUrl: "https://github.com/rchowd9/W101Deck", 
-    },
-
-    {
       title: "AlgoViz",
       description:
         "An interactive web application for visualizing sorting, pathfinding, and graph traversal algorithms in real time with step-by-step execution controls.",
