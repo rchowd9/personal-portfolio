@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
+import Games from "./pages/Games";
 import Skills from "./pages/Skills";
 import Activities from "./pages/Activities";
 import Experience from "./pages/Experience";
@@ -24,6 +25,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/projects" element={<Projects />} />
+              <Route path="/games" element={<Games />} />
               <Route path="/skills" element={<Skills />} />
               <Route path="/experience" element={<Experience />} />
               <Route path="/education" element={<Education />} />
