@@ -28,15 +28,6 @@ export default function Projects() {
       tech: ["Python", "React", "JavaScript", "Recharts"],
       liveUrl: "https://major-roast-b107bbce.base44.app/",
     },
-    
-    {
-      title: "Pokemon Battle Simulator",
-      description:
-        "A turn-based battle application simulating move mechanics, stat calculations, and tactical play.",
-      tech: ["React", "Node.js", "TypeScript", "Tailwind CSS"],
-      liveUrl: "https://pkmn-battle-simulator.vercel.app/",
-      repoUrl: "https://github.com/rchowd9/pkmnBattleSimulator",
-    },
 
     {
       title: "Railway System",
