@@ -42,6 +42,7 @@ import {
   SiFlask,
   SiDjango,
   SiPandas,
+  SiNumpy,
 
 } from "react-icons/si";
 
@@ -87,12 +88,9 @@ const skillCategories = [
     category: "Python Libraries & Frameworks",
     icon: <FaPython />,
     skills: [
-      { name: "TensorFlow", icon: <SiTensorflow color="#FF6F00" /> },
       { name: "Scikit-learn", icon: <SiScikitlearn color="#F7931E" /> },
       { name: "Pandas", icon: <SiPandas color="#150458" /> },
       { name: "NumPy", icon: <SiNumpy color="#013243" /> },
-      { name: "Django", icon: <SiDjango color="#092E20" /> },
-      { name: "Flask", icon: <SiFlask color="currentColor" /> },
       { name: "FastAPI", icon: <SiFastapi color="#009688" /> },
     ],
   },
