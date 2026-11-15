@@ -43,6 +43,7 @@ import {
   SiDjango,
   SiPandas,
   SiNumpy,
+  SiScikitlearn,
 
 } from "react-icons/si";
 
