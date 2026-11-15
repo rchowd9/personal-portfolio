@@ -41,6 +41,7 @@ import {
   SiTensorflow,
   SiFlask,
   SiDjango,
+  SiPandas,
 
 } from "react-icons/si";
 
