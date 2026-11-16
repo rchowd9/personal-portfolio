@@ -93,7 +93,7 @@ const skillCategories = [
     skills: [
       { name: "Scikit-learn", icon: <SiScikitlearn color="#F7931E" /> },
       { name: "Pandas", icon: <SiPandas color="#150458" /> },
-      { name: "Seaborn", icon: <SiSeaborn color="#3776ab" /> },
+      { name: "Seaborn", icon: <FaChartBar color="#4c72b0" /> },
       { name: "NumPy", icon: <SiNumpy color="#013243" /> },
       { name: "FastAPI", icon: <SiFastapi color="#009688" /> },
     ],
