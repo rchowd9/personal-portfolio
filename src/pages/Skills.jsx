@@ -66,6 +66,7 @@ import {
   FaHashtag,
   FaTable,
   FaPython,
+  FaCHartBar,
 } from "react-icons/fa";
 
 const skillCategories = [
