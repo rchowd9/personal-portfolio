@@ -45,6 +45,7 @@ import {
   SiNumpy,
   SiScikitlearn,
   SiFastapi,
+  SiPlotly,
 
 } from "react-icons/si";
 
