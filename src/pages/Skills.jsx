@@ -97,6 +97,7 @@ const skillCategories = [
       { name: "Seaborn", icon: <FaChartBar color="#4c72b0" /> },
       { name: "NumPy", icon: <SiNumpy color="#013243" /> },
       { name: "FastAPI", icon: <SiFastapi color="#009688" /> },
+      { name: "Matplotlib", icon: <FaChartBar color="#11557c" /> },
     ],
   },
   {
