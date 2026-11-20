@@ -169,15 +169,19 @@ const skillCategories = [
 ];
 
 const certifications = [
-
-  "Google Cloud Fundamentals (Jul 2025)",
-
-  "Intro to Technical Interview Prep (Apr 2026)",
-
-  "Foundations of Creative Writing Microcredential (Jul 2026)",
-
-  "Foundations of AI Engineering (Aug 2026)",
-
+  {
+    name: "Google Cloud Fundamentals (Jul 2025)",
+    url: "https://www.coursera.org/account/accomplishments/verify/AVUPNPLPA73M?utm_source=mobile&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course",
+  },
+  {
+    name: "Intro to Technical Interview Prep (Apr 2026)",
+    url: "https://drive.google.com/file/d/1Kg8zX5j002rJxANX4ST-ChiIlJPeMnn4/view",
+  },
+  { name: "Foundations of Creative Writing Microcredential (Jul 2026)" },
+  {
+    name: "Foundations of AI Engineering (Aug 2026)",
+    url: "https://certificates.codepath.org/644676e6-a8ce-4875-bf3a-bc594690b237.pdf",
+  },
 ];
 
 export default function Skills() {
@@ -247,7 +251,15 @@ export default function Skills() {
 
         <ul className="cert-list">
           {certifications.map((cert) => (
-            <li key={cert}>{cert}</li>
+            <li key={cert.name}>
+              {cert.url ? (
+                <a href={cert.url} target="_blank" rel="noopener noreferrer">
+                  {cert.name}
+                </a>
+              ) : (
+                cert.name
+              )}
+            </li>
           ))}
         </ul>
       </div>
