@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 // Simple Icons (Languages, Frameworks, Tools)
 import {
@@ -181,6 +181,28 @@ const certifications = [
 ];
 
 export default function Skills() {
+  const [currentDateTime, setCurrentDateTime] = useState(() => new Date());
+
+  useEffect(() => {
+    const timer = window.setInterval(() => {
+      setCurrentDateTime(new Date());
+    }, 1000);
+
+    return () => window.clearInterval(timer);
+  }, []);
+
+  const formattedDate = currentDateTime.toLocaleDateString(undefined, {
+    weekday: "long",
+    year: "numeric",
+    month: "long",
+    day: "numeric",
+  });
+  const formattedTime = currentDateTime.toLocaleTimeString(undefined, {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+  });
+
   return (
     <section id="skills" className="skills-section">
       <div className="section-heading">
@@ -228,6 +250,11 @@ export default function Skills() {
             <li key={cert}>{cert}</li>
           ))}
         </ul>
+      </div>
+
+      <div className="current-date-time" role="timer" aria-live="off">
+        <span className="current-date">{formattedDate}</span>
+        <span className="current-time">{formattedTime}</span>
       </div>
     </section>
   );
