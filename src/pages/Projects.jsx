@@ -86,8 +86,7 @@ export default function Projects() {
       description:
         "A nutrition intelligence platform that tracks calories, macros, and meal history while helping users reach personalized health goals through analytics, progress monitoring, and smart nutrition recommendations.",
       tech: ["Python", "Django"],
-      liveUrl: "https://macromind-toxrvsp8jgycpxvjlyjsrb.streamlit.app/", 
-      repoUrl: "https://github.com/rchowd9/MacroMind", 
+      repoUrl: "https://github.com/rchowd9/NetSight", 
     },
   ];    
 
