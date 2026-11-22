@@ -82,7 +82,7 @@ export default function Projects() {
     },
 
     {
-      title: "MacroMind",
+      title: "Netsight AI",
       description:
         "A nutrition intelligence platform that tracks calories, macros, and meal history while helping users reach personalized health goals through analytics, progress monitoring, and smart nutrition recommendations.",
       tech: ["Python", "Django"],
