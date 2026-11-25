@@ -188,7 +188,7 @@ const certifications = [
 
   {
     name: "Applications of AI Engineering (Nov 2026)",
-    url: "https://certificates.codepath.org/644676e6-a8ce-4875-bf3a-bc594690b237.pdf",
+    url: "https://certificates.codepath.org/ec145dad-7a67-4a40-8b04-aaa5828238a4.pdf",
   },
 ];
 
