@@ -178,11 +178,16 @@ const certifications = [
     name: "Intro to Technical Interview Prep (Apr 2026)",
     url: "https://drive.google.com/file/d/1Kg8zX5j002rJxANX4ST-ChiIlJPeMnn4/view",
   },
-  
+
   { name: "Foundations of Creative Writing Microcredential (Jul 2026)" },
 
   {
     name: "Foundations of AI Engineering (Aug 2026)",
+    url: "https://certificates.codepath.org/644676e6-a8ce-4875-bf3a-bc594690b237.pdf",
+  },
+
+  {
+    name: "Applications of AI Engineering (Nov 2026)",
     url: "https://certificates.codepath.org/644676e6-a8ce-4875-bf3a-bc594690b237.pdf",
   },
 ];
