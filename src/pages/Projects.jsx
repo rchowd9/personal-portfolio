@@ -94,7 +94,7 @@ export default function Projects() {
       title: "VesperaHub",
       description:
         "A real-time network traffic analysis platform that captures, monitors, and visualizes network activity. Features protocol classification, packet analytics, traffic monitoring dashboards, and machine learning-powered anomaly detection for identifying suspicious network behavior.",
-      tech: ["C#", "ASP.Net", "SignalR"],
+      tech: ["C#", "ASP.NET", "SignalR", "HTML"],
       liveUrl: "https://net-sight-five.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/NetSight", 
     },
