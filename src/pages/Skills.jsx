@@ -46,6 +46,7 @@ import {
   SiScikitlearn,
   SiFastapi,
   SiPlotly,
+  SiFaNetworkWired,
 
 } from "react-icons/si";
 
