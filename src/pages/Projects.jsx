@@ -95,7 +95,6 @@ export default function Projects() {
       description:
         "A real-time network traffic analysis platform that captures, monitors, and visualizes network activity. Features protocol classification, packet analytics, traffic monitoring dashboards, and machine learning-powered anomaly detection for identifying suspicious network behavior.",
       tech: ["C#", "ASP.NET", "SignalR", "HTML", "CSS", "JavaScript"],
-      
       repoUrl: "https://github.com/rchowd9/VesperaHub", 
     },
   ];    
