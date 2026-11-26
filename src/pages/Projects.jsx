@@ -91,7 +91,7 @@ export default function Projects() {
     },
 
     {
-      title: "Vespera Hub",
+      title: "VesperaHub",
       description:
         "A real-time network traffic analysis platform that captures, monitors, and visualizes network activity. Features protocol classification, packet analytics, traffic monitoring dashboards, and machine learning-powered anomaly detection for identifying suspicious network behavior.",
       tech: ["C#", "ASP.Net", "SignalR"],
