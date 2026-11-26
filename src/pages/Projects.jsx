@@ -89,6 +89,15 @@ export default function Projects() {
       liveUrl: "https://net-sight-five.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/NetSight", 
     },
+
+    {
+      title: "Vespera Hub",
+      description:
+        "A real-time network traffic analysis platform that captures, monitors, and visualizes network activity. Features protocol classification, packet analytics, traffic monitoring dashboards, and machine learning-powered anomaly detection for identifying suspicious network behavior.",
+      tech: ["Python", "Scapy","FastAPI","Scikit-learn","React","Recharts","Vite"],
+      liveUrl: "https://net-sight-five.vercel.app/", 
+      repoUrl: "https://github.com/rchowd9/NetSight", 
+    },
   ];    
 
   const [query, setQuery] = useState("");
