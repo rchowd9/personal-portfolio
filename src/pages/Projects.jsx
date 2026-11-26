@@ -84,7 +84,7 @@ export default function Projects() {
     {
       title: "Netsight AI",
       description:
-        "A nutrition intelligence platform that tracks calories, macros, and meal history while helping users reach personalized health goals through analytics, progress monitoring, and smart nutrition recommendations.",
+        "A real-time network traffic analysis platform that captures, monitors, and visualizes network activity. Features protocol classification, packet analytics, traffic monitoring dashboards, and machine learning-powered anomaly detection for identifying suspicious network behavior.",
       tech: ["Python", "Scapy","FastAPI","Scikit-learn","React","Recharts","Vite"],
       liveUrl: "https://net-sight-five.vercel.app/", 
       repoUrl: "https://github.com/rchowd9/NetSight", 
