@@ -46,7 +46,6 @@ import {
   SiScikitlearn,
   SiFastapi,
   SiPlotly,
-  SiFaNetworkWired,
 
 } from "react-icons/si";
 
@@ -69,6 +68,7 @@ import {
   FaTable,
   FaPython,
   FaChartBar,
+  FaNetworkWired
 } from "react-icons/fa";
 
 const skillCategories = [
